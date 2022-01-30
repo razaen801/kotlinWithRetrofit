@@ -1,4 +1,3 @@
-package com.suvidhatech.application.support.data.api.responses.baseResponse
 
 import com.google.gson.annotations.SerializedName
 

@@ -6,16 +6,13 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import com.rspackage.kotlindemo.support.data.database.entity.DBUser
 
-/**
- * Created by Rajesh Shrestha on 2021-01-29.
- */
-
 @Database(
     entities = [DBUser::class],
     version = DatabaseConfigs.databaseVersion
 )
 
 abstract class AppDatabase : RoomDatabase() {
+
 
     //abstract fun getDBUserDao(): DBUserDao
 

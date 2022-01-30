@@ -1,4 +1,3 @@
-package com.suvidhatech.application.support.data.database.dao
 
 import androidx.room.*
 
